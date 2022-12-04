@@ -58,7 +58,7 @@ systemctl restart containerd
 tput setaf 2 && echo "start to pulling images.." && tput setaf 7
 kubeadm config images pull
 
-tput setaf 2 && echo "add worker node tu kube..." && tput setaf 7
+tput setaf 2 && echo "add worker node to cluster..." && tput setaf 7
 
 
 # this line add node to cluster, should be passed as parameter!!
