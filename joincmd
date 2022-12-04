@@ -1,0 +1,3 @@
+kubeadm join 192.168.56.11:6443 --token 1gulo8.mhh2y144kd5erdw8 --discovery-token-ca-cert-hash sha256:6438c3978bdac8431d3b03808ab755f3091c3659d76c0ea4d58f2a3abdbf4287
+
+
