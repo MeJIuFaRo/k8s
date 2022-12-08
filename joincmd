@@ -1,3 +1,1 @@
-kubeadm join 192.168.56.11:6443 --token 1gulo8.mhh2y144kd5erdw8 --discovery-token-ca-cert-hash sha256:6438c3978bdac8431d3b03808ab755f3091c3659d76c0ea4d58f2a3abdbf4287
-
-
+kubeadm join 192.168.56.11:6443 --token swo35r.bpoa5ft842bfh7a9 --discovery-token-ca-cert-hash sha256:d257b9c86b6bcfbfb99640382394e9bbb9aca1d27e481698b22922891a5478ec 
