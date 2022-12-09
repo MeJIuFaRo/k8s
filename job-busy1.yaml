@@ -1,7 +1,7 @@
 apiVersion: batch/v1
 kind: Job
 metadata:
-  name: greets
+  name: greets2
 
 spec:
   backoffLimit: 3
@@ -11,7 +11,13 @@ spec:
       containers:
         - name: greets
           image: busybox
-          command: ["/bin/sh"]
-          args: ["-c", "echo Hello, Andrei! Start job... && sleep 15 && echo ..its done, by!"]      
+          command: 
+           - /bin/sh
+           - -c
+           - |
+             echo Hello, Andrei! Start job... 
+             sleep 15 
+             echo ..its done, by!
+             exit 1;
 
       restartPolicy: Never    
